@@ -1,0 +1,136 @@
+p, li, .description{
+ font-weight: 400;
+ line-height: 1.8rem;
+}
+.sidebar-collapse .navbar-collapse{
+    background: #000;
+}
+.sidebar-collapse .navbar-collapse::before{
+    background: linear-gradient(#CA6641,#131313 80%);
+}
+
+.bg-primary{
+    background: #CA6641 ;
+}
+.brand{
+    animation-name: fadeIn;
+    animation-duration: 1.1s;
+}
+.brand .h1-seo{
+    font-size: 3.2rem;
+    margin-bottom: .5rem;
+}
+
+.brand h3{
+    margin: 0;
+}
+@keyframes fadeIn {
+    0%   {opacity: 0;}
+    25%  {opacity: .25;}
+    50%  {opacity: .50;}
+    100% {opacity: 1;}
+}
+
+.paddingTop{
+    padding-top: 2rem;
+}
+.navbar-white{
+ background: #fff !important;
+}
+
+.black{
+    color: #000;
+}
+.gold, .gold-background, .category{
+    color: #fff !important;
+}
+
+.background-btn-form{
+    background: #005249;
+}
+
+.background-btn-form:hover, .background-btn-form:focus{
+    background: #004038;
+}
+
+.background-btn-form:visited{
+	background:#005249;
+}
+
+.filter-color{
+    background: linear-gradient(0deg,rgba(44,44,44,.2),rgba(0,0,0,.8));
+}
+
+
+
+section .section-inner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .section-inner h2{
+    color: #fff;
+}
+
+.team{
+    padding: 1rem;
+}
+
+.cto{
+    background: #005249;
+
+}
+.team-player .title, .team-player .description{
+    color: #fff;
+}
+
+.footer{
+    background: #131313;
+    color: #fff;
+}
+
+
+.thanks .wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px){
+    .brand .h1-seo{
+        font-size: 2.2rem;
+    }
+}
+
+.img-raised {
+    box-shadow: 0 10px 25px 0 rgba(0,0,0,.3);
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.modal-button{
+	background-color: #8C8C8C;
+}
+
+.modal-button:hover{
+	background-color: #737373;
+	transition: 2s;
+}
+
+
+.btn-primary:visited{
+	background-color: #005249;
+}
